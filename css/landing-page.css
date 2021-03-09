@@ -15,7 +15,7 @@ h6 {
 header.masthead {
   position: relative;
   background-color: #808080;
-  background: url("ironrealm.jpg") no-repeat center center;
+  background: url("/img/ironrealm.jpg") no-repeat center center;
   background-size: cover;
   padding-top: 8rem;
   padding-bottom: 8rem;

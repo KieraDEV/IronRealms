@@ -14,7 +14,7 @@ h6 {
 
 header.masthead {
   position: relative;
-  background-color: #808080;
+  background-color: #D3D3D3;
   background: url("/img/ironrealm.jpg") no-repeat center center;
   background-size: cover;
   padding-top: 8rem;
@@ -97,7 +97,7 @@ header.masthead h1 {
 
 .call-to-action {
   position: relative;
-  background-color: #343a40;
+  background-color: #D3D3D3;
   background: url("ironrealm.jpg") no-repeat center center;
   background-size: cover;
   padding-top: 7rem;

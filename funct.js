@@ -1,10 +1,7 @@
-function myFunction() {
-  var copyText = document.getElementById("myInput");
-
-  copyText.select();
-  copyText.setSelectionRange(0, 99999); /* For mobile devices */
-
+function copyToClipboard(element) {
+  var $temp = $("<input>");
+  $("body").append($temp);
+  $temp.val($(element).text()).select();
   document.execCommand("copy");
-
-  alert("Copied: " + copyText.value);
+  $temp.remove();
 }
